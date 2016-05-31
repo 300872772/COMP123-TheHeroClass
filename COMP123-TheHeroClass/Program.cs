@@ -10,6 +10,9 @@ namespace COMP123_TheHeroClass
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
