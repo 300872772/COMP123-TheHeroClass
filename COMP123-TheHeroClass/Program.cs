@@ -13,8 +13,9 @@ using System.Threading.Tasks;
  * and Health properties to be shown to Console. 
  * 
  * 
- * Version: 0.0.2 - created Hero object in driver class and displayed abilities to the console 
+ * Version: 0.0.4 - created abilityGUI method to displayed abilities to the console graphically
  */
+
 namespace COMP123_TheHeroClass
 {
     /**
@@ -38,7 +39,7 @@ namespace COMP123_TheHeroClass
             //show fight and damage status
 
             hero.Fight();
-
+            Console.WriteLine();
 
         }
     }
