@@ -9,7 +9,7 @@ namespace COMP123_TheHeroClass
 
     /**
      * <summary>
-     * This class defines a charecter Hero which has 4 fields, 1 properties, 3 private methods and 2 public methods 
+     * This 'Hero' class defines a charecter Hero which has 4 fields, 1 properties, 3 private methods and 2 public methods 
      * 
      * @class Hero
      * @field {int} _strength
@@ -201,9 +201,9 @@ namespace COMP123_TheHeroClass
         */
         public void Fight()
         {
-            if (_hitAttempt(20))
+            if (_hitAttempt(100)==true)
             {
-               Console.WriteLine( "Damage value is{0} ",_hitDamage());
+               Console.WriteLine( "Damage value is {0} ",_hitDamage());
 
             }
 
