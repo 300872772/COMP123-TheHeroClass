@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace COMP123_TheHeroClass
 {
 
@@ -19,7 +21,7 @@ namespace COMP123_TheHeroClass
      * </summary>
      * 
      */
-    class Hero
+    public class Hero
     {
 
         //PRIVATE INSTANCE VARIABLE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -233,7 +235,7 @@ namespace COMP123_TheHeroClass
         */
         public void Fight()
         {
-            if (_hitAttempt(100))
+            if (_hitAttempt(20))
             {
                Console.WriteLine( "The Hero has attempted to fight and got damage value {0} ",_hitDamage());
 

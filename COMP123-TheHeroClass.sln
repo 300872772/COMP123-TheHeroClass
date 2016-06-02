@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP123-TheHeroClass", "COMP123-TheHeroClass\COMP123-TheHeroClass.csproj", "{2A492E63-196C-42F8-9B62-1B46AA26A970}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectForTheHeroClass", "UnitTestProjectForTheHeroClass\UnitTestProjectForTheHeroClass.csproj", "{96C5EB14-4C8C-4835-8C3A-3D46F065E7B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A492E63-196C-42F8-9B62-1B46AA26A970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A492E63-196C-42F8-9B62-1B46AA26A970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A492E63-196C-42F8-9B62-1B46AA26A970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C5EB14-4C8C-4835-8C3A-3D46F065E7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C5EB14-4C8C-4835-8C3A-3D46F065E7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C5EB14-4C8C-4835-8C3A-3D46F065E7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C5EB14-4C8C-4835-8C3A-3D46F065E7B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
