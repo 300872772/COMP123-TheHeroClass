@@ -172,6 +172,7 @@ namespace COMP123_TheHeroClass
             for (int i =1; i<= 100; i +=2)
             {
                 abilityGUI += ((i <= ability) ? "|" : " ");
+                
             }
 
             return abilityGUI += " " + ability + "%";
@@ -241,6 +242,10 @@ namespace COMP123_TheHeroClass
                Console.WriteLine( "The Hero has attempted to fight and got damage value {0} ",_hitDamage());
 
             }
+            else
+            {
+                Console.WriteLine("The Hero has not attempted to fight.");
+            }
 
         }
 
@@ -265,10 +270,26 @@ namespace COMP123_TheHeroClass
             Console.WriteLine(" |  | |__ |  \\ |__|");
             Thread.Sleep(400);
             Console.WriteLine();
-            Console.WriteLine();
             Thread.Sleep(400);
-            Console.WriteLine(" Name:{0}\n Strength: {1}\n Speed:    {2}\n Health:   {3}\n"
+
+            for (int i = 0; i < 65; i++)
+            {
+                Thread.Sleep(20);
+                Console.Write("_");
+
+            }
+
+            Console.WriteLine("\n\n Name: {0}\n\n Strength: {1}\n\n Speed:    {2}\n\n Health:   {3}\n"
                 ,this.Name,_abilitiesGUI( this.Strength), _abilitiesGUI(this.Speed), _abilitiesGUI(this.Health));
+
+            for (int i = 0; i < 65; i++)
+            {
+                Thread.Sleep(20);
+                Console.Write("_");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
 
         }
 
