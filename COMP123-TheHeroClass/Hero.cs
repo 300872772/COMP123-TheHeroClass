@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 
@@ -256,7 +257,16 @@ namespace COMP123_TheHeroClass
 
         public void Show()
         {
-            Console.WriteLine("\n       __  __   __ \n |__| |__ |__| |  |\n |  | |__ |  \\ |__|  \n");
+            Thread.Sleep(400);
+            Console.WriteLine("       __  __   __");
+            Thread.Sleep(400);
+            Console.WriteLine(" |__| |__ |__| |  |");
+            Thread.Sleep(400);
+            Console.WriteLine(" |  | |__ |  \\ |__|");
+            Thread.Sleep(400);
+            Console.WriteLine();
+            Console.WriteLine();
+            Thread.Sleep(400);
             Console.WriteLine(" Name:{0}\n Strength: {1}\n Speed:    {2}\n Health:   {3}\n"
                 ,this.Name,_abilitiesGUI( this.Strength), _abilitiesGUI(this.Speed), _abilitiesGUI(this.Health));
 
