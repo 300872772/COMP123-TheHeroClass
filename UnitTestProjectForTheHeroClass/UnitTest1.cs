@@ -2,6 +2,16 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using COMP123_TheHeroClass;
 
+/*
+ *Author: Md Mamunur Rahman
+ * Student ID: 300872772 
+ *
+ * Date: June 03, 2016
+ * Description: This project is used for testing program TheHeroClass
+ * 
+ * @namespace  UnitTestProjectForTheHeroClass
+ * 
+ */
 namespace UnitTestProjectForTheHeroClass
 {
 
@@ -9,7 +19,7 @@ namespace UnitTestProjectForTheHeroClass
      * <summary>
      *This class is used for testing Hero Class
      * 
-     * @class  
+     * @class  UnitTestForHeroClass
      * </summary>
      */
     [TestClass]
