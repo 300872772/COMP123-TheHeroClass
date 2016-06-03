@@ -13,7 +13,7 @@ using System.Threading.Tasks;
  * and Health properties to be shown to Console. 
  * 
  * 
- * Version: 0.0.5 - Added Test Project and executed testing.
+ * Version: 0.0.6 - Added all test methods for testing.
  */
 
 namespace COMP123_TheHeroClass

@@ -23,22 +23,17 @@ namespace UnitTestProjectForTheHeroClass
         * @return {void}  
         * </summary>
         */
-
         [TestMethod]
         public void TestMethodFor_generalAbility()
         {
-
             //Arrange
-
             //Act
-
             //Assert
-
         }
 
         /**
         * <summary>
-        *This method is used for testing _hitDamage method under Hero class
+        *This method is used for testing _hitDamage method under Hero class via HitDamage method
         * 
         * @method TestMethodFor_hitDamage
         * @return {void}
@@ -52,7 +47,7 @@ namespace UnitTestProjectForTheHeroClass
             //Arrange
             Hero hero = new Hero("Mamun");
             //Act
-            int result = hero._hitDamage();
+            int result = hero.HitDamage();
 
             //Assert
             Assert.IsNotNull(result);
@@ -60,7 +55,7 @@ namespace UnitTestProjectForTheHeroClass
         }
         /**
         * <summary>
-        *This method is used for testing _hitAttempt method under Hero class
+        *This method is used for testing _hitAttempt method under Hero class via HitAttempt Method
         * 
         * @method TestMethodFor_hitAttempt
         * @return {void}
@@ -75,7 +70,7 @@ namespace UnitTestProjectForTheHeroClass
             int probability = 100;
             Hero hero = new Hero("Mamun");
             //Act
-            bool result = hero._hitAttempt(probability);
+            bool result = hero.HitAttempt(probability);
 
             //Assert
             Assert.IsTrue(result);
@@ -96,12 +91,15 @@ namespace UnitTestProjectForTheHeroClass
 
             //Arrange
             Hero hero = new Hero("Mamun");
-            string expectedResult = null;
+            string expectedResult = "The Hero has attempted to fight and got damage value";
             //Act
-            hero.Fight();
+
+            //test purpose only
+
+            //string result = hero.Fight();
 
             //Assert
-            
+           // Assert.AreEqual(expectedResult, result);
             
         }
         /**

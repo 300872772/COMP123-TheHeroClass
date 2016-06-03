@@ -247,6 +247,18 @@ namespace COMP123_TheHeroClass
                 Console.WriteLine("The Hero has not attempted to fight.");
             }
 
+            //Testing purpose only
+            /*
+            if (_hitAttempt(20))
+            {
+                return "The Hero has attempted to fight and got damage value " + _hitDamage();
+
+            }
+            else
+            {
+                return "The Hero has not attempted to fight.";
+            }
+            */
         }
 
         /**
@@ -292,6 +304,41 @@ namespace COMP123_TheHeroClass
             Console.WriteLine();
 
         }
+
+        //PUBLIC METHOD, TEST PURPOSE ONLY*********************++++++++++++++++****************************
+        /**
+       * <summary>
+       * This is the public method made for testing purpose ony that calls _hitAttempt method 
+       * by setProb parameter
+       * 
+       * @method HitAttempt
+       * @param (int) setProb
+       * @returns {bool}        * 
+       * </summary>
+       * 
+       */
+
+        public bool HitAttempt(int setProb)
+        {
+
+            return _hitAttempt(setProb);
+        }
+
+       /**
+       * <summary>
+       * This is the public method made for testing purpose only that calls _hitDamage method 
+       * 
+       * @method HitDamage
+       * @returns {int}        * 
+       * </summary>
+       * 
+       */
+        public int HitDamage()
+        {
+
+            return _hitDamage();
+        }
+
 
     }
 }
